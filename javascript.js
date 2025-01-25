@@ -14,8 +14,7 @@ do {
     //add validation of if entry is a number
     if( isNaN(entry)){
         alert("Entry must be a number");
-    }
-	else if (entry >= 0 && entry <= 100) {
+    } else if (entry >= 0 && entry <= 100) {
         scores[scores.length] = entry;
     } else if (entry != 999){
         alert("Entry must by a valid number from 0 through 100\n" +
